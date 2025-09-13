@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Workflow",
+  "Type": "App",
+  "Id": "-LR1KHyHpU-PSHBOAF6vgQ",
+  "Reference": "Jc3cZax4K0mf9Mw9M8CsDA/-LR1KHyHpU-PSHBOAF6vgQ",
+  "Created": "2025-02-18T10:48:18.0026075Z",
+  "Updated": "2025-02-18T10:48:18.0026075Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

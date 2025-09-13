@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QGlIlnMUOEaxNT33Hz26Hw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost" CVScreenId="1d58db37-84f1-44c5-83a2-b1e71cf419e2" CvType="AnyWordGroup" DesignTimeRectangle="259, 790, 585, 36" ElementType="Text" FullSelectorArgument="&lt;webctrl id='lblError' tag='P' /&gt;" Guid="435e458e-9b9e-477d-98d7-aed11a55b0cb" ScopeSelectorArgument="&lt;html app='firefox.exe' title='TMS - Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4f67108d4937b621214d55e28f09444a.png" xmlns="">0zs7ZzNG2b0-jQBWzwhnnig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

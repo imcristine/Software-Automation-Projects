@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ik7WZjHDK0uSduKUCgsagA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost" CVScreenId="7c354a10-6ddb-454e-88ba-abb74605352d" CvElementArea="1043, 571, 456, 61" CvTextArea="1239, 590, 63, 28" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1046, 574, 450, 56" ElementType="Button" FullSelectorArgument="&lt;webctrl id='loginID' tag='BUTTON' /&gt;" Guid="32913872-ee9a-4dd6-a47b-03777e8131f3" ScopeSelectorArgument="&lt;html app='firefox.exe' title='TMS - Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="204d36d497ddc91127fec915cb5a68d7.png" xmlns="">01g7w6eXWwE-2jQ6VUgqVwQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

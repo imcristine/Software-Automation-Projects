@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ncDdwa161ESyh9COIufDsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/Dashboard/Index" CVScreenId="c43b75fa-0898-4371-878c-778aa044e048" CvTextArea="1709, 366, 66, 24" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1675, 356, 256, 41" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Logout' tag='A' /&gt;" Guid="8ce0529c-5da7-4837-9bed-e6ef7991ec98" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Main Page' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="547bc3664eac247eedf2e39cbc3e8b76.png" xmlns="">009e4EMznLEG3YomKhNFTmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

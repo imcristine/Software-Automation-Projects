@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Workflow",
+  "Type": "Screen",
+  "Id": "UGXLFd8of0W_FjhKSAdIgw",
+  "Reference": "Jc3cZax4K0mf9Mw9M8CsDA/UGXLFd8of0W_FjhKSAdIgw",
+  "ParentRef": "Jc3cZax4K0mf9Mw9M8CsDA/3oAJwvUGp0WPc-HeD7KH9w",
+  "Created": "2025-02-18T10:48:18.103705Z",
+  "Updated": "2025-02-18T10:48:18.103705Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

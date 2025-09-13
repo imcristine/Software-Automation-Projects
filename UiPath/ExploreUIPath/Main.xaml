@@ -1,0 +1,285 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1276,1946" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,1923" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Workflow" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1840" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" ScopeGuid="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1600" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''User ID''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Text="hrc" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost" CVScreenId="23325e90-4296-4d0a-9793-96dc51541286" CvElementArea="409, 410, 322, 36" CvType="InputBox" DesignTimeRectangle="411, 412, 318, 32" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='pnlLogin' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='txtActiveDirectory' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pnlLogin' tag='TABLE' /&gt;&lt;webctrl id='txtActiveDirectory' type='text' tag='INPUT' class='' aaname='' /&gt;" Guid="f30bac86-75e4-4065-94f7-e359d2e178ba" InformativeScreenshot="efd521caaf1454d2f756fb9057371114.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Workflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="23325e90-4296-4d0a-9793-96dc51541286" CvTextArea="306, 413, 63, 18" CvTextArgument="User ID" CvType="Text" DesignTimeRectangle="308, 412, 61, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='pnlLogin' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='lblUserName' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pnlLogin' tag='TABLE' /&gt;&lt;webctrl id='lblUserName' type='' tag='SPAN' class='' aaname='User ID' check:innerText='User ID' /&gt;" Guid="7dccffd5-cfec-44db-859b-2fabdd3a107c" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+                <uix:NKeyboardShortcuts.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NKeyboardShortcuts.VerifyOptions>
+              </uix:NKeyboardShortcuts>
+              <uix:NSelectItem DisplayName="Select Item ''Profile''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="DASHHRCNonConfi" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Version="V4">
+                <uix:NSelectItem.Items>
+                  <scg:List x:TypeArguments="x:String" Capacity="3">
+                    <x:String>CONFI1_LIVE</x:String>
+                    <x:String>DASHHRCNonConfi</x:String>
+                    <x:String>PUFFI_WEEKLY_LIVE</x:String>
+                  </scg:List>
+                </uix:NSelectItem.Items>
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/index.aspx" CVScreenId="ccf7c44f-7783-4322-91f3-3dfac1d65195" CvElementArea="409, 469, 318, 29" CvType="InputBox" DesignTimeRectangle="411, 471, 315, 26" DesignTimeScaleFactor="1.5" ElementType="DropDown" FullSelectorArgument="&lt;webctrl parentid='pnlLogin' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='ddlProfiles' tableRow='2' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pnlLogin' tag='TABLE' /&gt;&lt;webctrl id='ddlProfiles' type='' tag='SELECT' class='' aaname='' /&gt;" Guid="ea172454-4206-4988-a613-5e5f856cd4c4" InformativeScreenshot="d09232a1fd6ee0c320b2720a39284c4b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CONFI1_LIVE - Workflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="ccf7c44f-7783-4322-91f3-3dfac1d65195" CvTextArea="306, 471, 52, 18" CvTextArgument="Profile" CvType="Text" DesignTimeRectangle="308, 471, 51, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='pnlLogin' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='Label1' tableRow='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pnlLogin' tag='TABLE' /&gt;&lt;webctrl id='Label1' type='' tag='SPAN' class='' aaname='Profile' check:innerText='Profile' /&gt;" Guid="935123c8-e595-42c2-950a-127a28b766e6" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''Password''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Text="systemadmin" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/index.aspx" CVScreenId="87101df3-6456-4918-82aa-f9aab7e48229" CvElementArea="409, 522, 321, 35" CvType="InputBox" DesignTimeRectangle="411, 524, 318, 32" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl parentid='pnlLogin' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='txtPassword' tableRow='3' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pnlLogin' tag='TABLE' /&gt;&lt;webctrl id='txtPassword' type='password' tag='INPUT' class='' aaname='' /&gt;" Guid="88682d37-3c3b-4eac-b141-238850205f97" InformativeScreenshot="f4f412aa108181048a884803b61d84f4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DASHHRCNonConfi - Workflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="87101df3-6456-4918-82aa-f9aab7e48229" CvTextArea="306, 525, 79, 16" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="308, 524, 97, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='pnlLogin' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='lblPassword' tableRow='3' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pnlLogin' tag='TABLE' /&gt;&lt;webctrl id='lblPassword' type='' tag='SPAN' class='' aaname='Password' check:innerText='Password' /&gt;" Guid="1834f011-e2d5-4868-b898-f4f3690ff3bf" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Login''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/index.aspx" CVScreenId="87101df3-6456-4918-82aa-f9aab7e48229" CvElementArea="541, 581, 185, 41" CvTextArea="608, 591, 51, 24" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="544, 584, 180, 37" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='pnlLogin' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='btnLogin' tableRow='4' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pnlLogin' tag='TABLE' /&gt;&lt;webctrl id='btnLogin' type='submit' tag='INPUT' class='' aaname='Login' check:text='Login' /&gt;" Guid="046de066-a7e6-4b7e-a824-f16760ca06cb" InformativeScreenshot="b836f052e1f6389ccdc0896c35dfee23.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DASHHRCNonConfi - Workflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''localhost:86 says Passw…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/Tools/Password/pgeChangePassword.aspx" DesignTimeRectangle="624, 128, 694, 450" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;ctrl name='localhost:86 says' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" FuzzySelectorArgument="&lt;ctrl name='localhost:86 says' role='dialog' /&gt;&lt;ctrl automationid='' role='pane' check:fulltext='localhost:86 says&amp;#xD;&amp;#xA;Password does not meet requirements. Update password to avoid this prompt. Password length should be greater / equal to 6 Password must have 2 / 3 of the following combination(s):  - LOWERCASE LETTERS (&amp;apos;abcdefghijklmnopqrstuvwxyz&amp;apos;)  - UPPERCASE LETTERS (&amp;apos;ABCDEFGHIJKLMNOPQRSTUVWXYZ&amp;apos;)  - NUMERALS (&amp;apos;0123456789&amp;apos;)&amp;#xD;&amp;#xA;OK' /&gt;" Guid="a7b78aaf-2a02-43ef-a75e-e1edb31a75a6" InformativeScreenshot="87749db6e16e37cbf1a979f507b543c7.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Change Password - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''OK''" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/Tools/Password/pgeChangePassword.aspx" CVScreenId="5420af70-4ccd-4353-8020-13f4a23120fc" CvElementArea="1172, 468, 113, 74" CvTextArea="1214, 497, 30, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1181, 477, 96, 58" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl name='localhost:86 says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='localhost:86 says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="c043be82-075e-45ba-9bb9-a81670a8d26a" InformativeScreenshot="9188006afcd07eb0fe91571463e8fac5.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Change Password - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Change your password Th…''" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/Tools/Password/pgeChangePassword.aspx" DesignTimeRectangle="624, 128, 694, 473" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl automationid='' role='pane' check:fulltext='Change your password&amp;#xD;&amp;#xA;The password you just used was found in a data breach. Google Password Manager recommends changing your password now.&amp;#xD;&amp;#xA;When you use a password, Chrome warns you if it has been published online. When doing this, your passwords and usernames are encrypted, so they can’t be read by anyone, including Google.&amp;#xD;&amp;#xA;OK' /&gt;" Guid="1a1b5249-623a-4d9c-b8ef-62f9803d9545" InformativeScreenshot="f8329bf6f1d045e1eb4f4fd14812b3ac.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Change Password - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''OK''" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/Tools/Password/pgeChangePassword.aspx" CVScreenId="04fb1d47-d980-472b-95e7-4247063eeaa9" CvElementArea="1172, 490, 112, 75" CvTextArea="1214, 519, 31, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1181, 500, 96, 57" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="a528b30d-fdcc-4c2c-a18c-c7c281aabf98" InformativeScreenshot="40ca1e7d9349ba0d4768efa47df07d35.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Change Password - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''HOME''" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ecd88794-c70b-4c33-9d2a-1ffac01f9958" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="localhost/Tools/Password/pgeChangePassword.aspx" CVScreenId="8978bbc6-70dc-4c9d-8480-bf02fb4e6258" CvTextArea="302, 377, 57, 18" CvTextArgument="HOME" CvType="Text" DesignTimeRectangle="304, 372, 211, 26" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='ctl00_menuMain_1 ctl00_menuMain_3' aaname='                                             HOME                                                                          ' check:innerText='HOME' /&gt;" Guid="cc1ff527-a033-41fb-a43b-c527956c00bc" InformativeScreenshot="fe59471164ef38e4307b2539334757e7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Change Password' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="1909, -11, 1942, 1056" BrowserType="Chrome" ContentHash="RdnlNCe630apyTXkao8BcA" IconBase64="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" InformativeScreenshot="b44f5a082e38be1a3643af2adfcb1721.jpg" Reference="Jc3cZax4K0mf9Mw9M8CsDA/UGXLFd8of0W_FjhKSAdIgw" Selector="&lt;html app='chrome.exe' title='Workflow' /&gt;" Url="http://localhost:86/" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

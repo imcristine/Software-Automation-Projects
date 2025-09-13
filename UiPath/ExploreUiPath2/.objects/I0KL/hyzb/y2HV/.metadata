@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome HR Hub - Login",
+  "Type": "Screen",
+  "Id": "y2HVm9iESkGad3DN1UfYqA",
+  "Reference": "NXi11v7slkuKIuag8Ar45g/y2HVm9iESkGad3DN1UfYqA",
+  "ParentRef": "NXi11v7slkuKIuag8Ar45g/hyzbg1_foUWcwaqci2dWvg",
+  "Created": "2025-05-31T06:24:49.676051Z",
+  "Updated": "2025-05-31T06:24:49.676051Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

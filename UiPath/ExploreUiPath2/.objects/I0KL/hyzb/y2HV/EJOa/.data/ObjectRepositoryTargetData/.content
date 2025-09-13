@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WMrySkKyF024CCzF2r29LQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost" CVScreenId="8f6b80ec-3d9c-479e-a129-e6c31c6e3cc0" CvElementArea="1031, 751, 458, 62" CvTextArea="1227, 771, 63, 27" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1035, 754, 450, 56" ElementType="Button" FullSelectorArgument="&lt;webctrl id='loginID' tag='BUTTON' /&gt;" Guid="cb96de3c-718a-41be-8f2e-de366971987b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='HR Hub - Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d46fcd77be1681e588c6af80fa2ddd20.png" xmlns="">06sh5T4d2jUONk8KkxPQZ3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

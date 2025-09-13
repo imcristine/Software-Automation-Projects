@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="t5tN_f7m20CsIWWQ2rOSKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost" CVScreenId="71fb3b0a-e2ab-4e0f-bb84-f692886348e9" CvElementArea="1043, 490, 455, 61" CvType="InputBox" DesignTimeRectangle="1046, 493, 450, 57" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='txtPassword' tag='INPUT' /&gt;" Guid="6c86210a-958d-4927-8cdf-623cc38b206e" ScopeSelectorArgument="&lt;html app='firefox.exe' title='TMS - Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9501c195a1a3a130a68570b3b954f336.png" xmlns="">0JfUdmQqikkiYTdzL7g96ew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

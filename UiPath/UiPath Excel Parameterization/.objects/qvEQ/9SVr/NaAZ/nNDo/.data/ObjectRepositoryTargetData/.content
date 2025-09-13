@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XBqNunLagECJvhNWHmPRpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost" CVScreenId="84727542-4647-4f31-9f4f-3cba891acbf3" CvElementArea="1032, 655, 455, 61" CvType="InputBox" DesignTimeRectangle="1035, 657, 450, 57" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='txtPassword' tag='INPUT' /&gt;" Guid="74f8b725-a404-4680-beab-1502189278a7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='HR Hub - Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="16700864e9a7e18b8e2744f71ea350ef.png" xmlns="">0EUKtU8ke1UCoKwLwrAvYng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome HR Hub - Login",
+  "Type": "Screen",
+  "Id": "myBat9hCkkiW6b-4UogBSA",
+  "Reference": "Jc3cZax4K0mf9Mw9M8CsDA/myBat9hCkkiW6b-4UogBSA",
+  "ParentRef": "Jc3cZax4K0mf9Mw9M8CsDA/mnegVifdQUKAr_YlZzFwTA",
+  "Created": "2025-02-18T11:24:16.5022752Z",
+  "Updated": "2025-02-18T11:24:16.5022752Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

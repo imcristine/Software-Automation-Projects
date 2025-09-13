@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT txtUsrNme",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "spoMb1LGpU-QeY8YFhm1Xg",
+  "Reference": "NXi11v7slkuKIuag8Ar45g/spoMb1LGpU-QeY8YFhm1Xg",
+  "ParentRef": "NXi11v7slkuKIuag8Ar45g/y2HVm9iESkGad3DN1UfYqA",
+  "Created": "2025-05-31T06:36:53.7738388Z",
+  "Updated": "2025-05-31T06:36:53.7738388Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

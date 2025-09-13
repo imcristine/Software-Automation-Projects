@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z_VYw4GHnk6KRJIQtzhPoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/Dashboard/Index" CVScreenId="58ece37c-f967-489a-bf9b-06b946096483" CvTextArea="1855, 173, 34, 19" CvTextArgument="HRC" CvType="Text" DesignTimeRectangle="1764, 138, 167, 90" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                                                                                                                         HRC                     ' tag='A' /&gt;" Guid="ea2fdf62-01cc-48be-b1f2-1d47a2e81b19" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Main Page' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d0f55806d411de82045784c365be7bc8.png" xmlns="">0YXyAfqtbfkm-6a-Fy2oC4w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,92 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HRHUB_Testing.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "UdemyUiPath6.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../../Users/HRCC-CRISTINEMAEHREB/AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsCSharp/Samples/Calculator Automation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "winFolder&Sequence_5",
+        "resultValue&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../../Users/HRCC-CRISTINEMAEHREB/AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsCSharp/Snippets/Orchestration/Create Task and Assign to User.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Task1PersistData&Sequence_2",
+        "Task2PersistData&Sequence_2",
+        "TaskAssignmentsInput&Sequence_2",
+        "FailedTaskAssignmentsOutput&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../../Users/HRCC-CRISTINEMAEHREB/AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsCSharp/Snippets/Orchestration/Add Queue Item And Wait till completion.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Test&Sequence_1",
+        "QueueItemObject&Sequence_1",
+        "QueueItemOut&Sequence_1",
+        "QueueName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../../Users/HRCC-CRISTINEMAEHREB/AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsCSharp/Snippets/Loops/For Each Child.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "iEnumerableFindChildren&Sequence_7",
+        "stringChildValue&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../../Users/HRCC-CRISTINEMAEHREB/AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsCSharp/Snippets/Loops/For Each Element in a Collection.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

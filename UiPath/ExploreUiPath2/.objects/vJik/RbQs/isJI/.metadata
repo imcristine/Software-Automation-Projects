@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome UI Path-Sequence Activity with Real Ti",
+  "Type": "Screen",
+  "Id": "isJIMjI-SU6FPIfI6Mk7lg",
+  "Reference": "NXi11v7slkuKIuag8Ar45g/isJIMjI-SU6FPIfI6Mk7lg",
+  "ParentRef": "NXi11v7slkuKIuag8Ar45g/RbQswUavuUSCmijFJgyanw",
+  "Created": "2025-05-31T06:32:46.4609467Z",
+  "Updated": "2025-05-31T06:32:46.4609467Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

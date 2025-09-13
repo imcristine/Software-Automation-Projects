@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome HR Hub - Login",
+  "Type": "App",
+  "Id": "9rN0Gt4MMESbgQqDCP21JQ",
+  "Reference": "Jc3cZax4K0mf9Mw9M8CsDA/9rN0Gt4MMESbgQqDCP21JQ",
+  "Created": "2025-02-18T11:24:16.4796041Z",
+  "Updated": "2025-02-18T11:24:16.4796041Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
